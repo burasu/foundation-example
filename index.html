@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Ejemplo de uso de Zurb Foundation</title>
 
     <!-- Indicamos la ruta de los archivos del framework -->
@@ -30,7 +32,7 @@
     </div>
 
     <div class="row">
-        <div class="small-6 small-offset-3 columns">
+        <div class="columns large-12">
 
             <p>Ejemplo de botones con uso de JS</p>
 
@@ -87,6 +89,37 @@
                     <i class="fa fa-cubes"></i>
                     <label>Like</label>
                 </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="columns large-12">
+            <p>Ejemplo de Switches</p>
+
+            <div class="row">
+                <div class="columns large-12">
+                    <div class="switch">
+                        <input type="checkbox" id="exampleCheckboxSwitch" />
+                        <label for="exampleCheckboxSwitch"></label>
+                    </div>
+
+                    <!-- Using radio buttons – each switch turns off the other two -->
+                    <div class="switch small">
+                        <input id="exampleRadioSwitch1" type="radio" checked name="testGroup">
+                        <label for="exampleRadioSwitch1"></label>
+                    </div>
+
+                    <div class="switch radius">
+                        <input id="exampleRadioSwitch2" type="radio" name="testGroup">
+                        <label for="exampleRadioSwitch2"></label>
+                    </div>
+
+                    <div class="switch round large">
+                        <input id="exampleRadioSwitch3" type="radio" name="testGroup">
+                        <label for="exampleRadioSwitch3"></label>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
